@@ -1,0 +1,9 @@
+{
+  "name": "mylo-soap-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal SEO landing for Mylo Soap",
+  "scripts": {
+    "start": "npx serve -s . -l $PORT"
+  }
+}
