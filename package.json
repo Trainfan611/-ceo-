@@ -4,7 +4,7 @@
   "private": true,
   "description": "Minimal SEO landing for Mylo Soap",
   "scripts": {
-    "start": "serve -s . -l $PORT"
+    "start": "serve . -l $PORT"
   },
   "dependencies": {
     "serve": "^14.2.4"
