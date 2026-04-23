@@ -1,6 +1,6 @@
-# Mylo Soap landing
+# LEGO Store landing
 
-Минимальный SEO-лендинг под запросы про мыло.
+Минимальный SEO-лендинг под запросы про магазин LEGO.
 
 ## Локальный запуск
 
@@ -11,8 +11,8 @@ npx serve -s . -l 3000
 ## Деплой в Railway
 
 1. Создайте новый проект на Railway и подключите эту папку.
-2. Назовите сервис с включением `mylo` (например `mylo-soap`), чтобы получить URL вида:
-   - `https://mylo-soap.up.railway.app`
+2. Назовите сервис с включением `lego` (например `lego-store`), чтобы получить URL вида:
+   - `https://lego-store.up.railway.app`
 3. Railway автоматически подхватит `npm start`.
 4. После деплоя замените домен в:
    - `index.html` (`canonical`, `og:url`, JSON-LD `url`)
